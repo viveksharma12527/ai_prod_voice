@@ -29,13 +29,11 @@ OcrProject/
 ⚙️ Key Components
 
 /app/controllers/ocr_controller.py
-
 Defines FastAPI router.
 Handles file upload.
 Calls service logic.
 
 /app/services/ocr_service.py
-
 extract_product_info: Uses regex on OCR text.
 build_prompt: Creates LLM prompt.
 expand_with_huggingface: Calls Mixtral-8x7B LLM.
@@ -43,8 +41,7 @@ speak_text_with_voicecloning: Uses Gradio TTS.
 process_image_and_generate_description: Ties it all together.
 
 
-
-
+```shell
 uv pip install -r requirements.txt
 uv run -- uvicorn app.main:app --reload
-
+```
