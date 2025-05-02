@@ -12,7 +12,7 @@ This Python project uses Optical Character Recognition (OCR) to extract product 
 - 💬 Supports customization of voice, pitch, and speed.
 
 ---
-
+```
 OcrProject/
 ├── app/
 │   ├── main.py
@@ -25,7 +25,7 @@ OcrProject/
 ├── .env
 ├── requirements.txt
 
-
+```
 ⚙️ Key Components
 
 /app/controllers/ocr_controller.py
