@@ -1,0 +1,7 @@
+fastapi>=0.103.0
+uvicorn>=0.23.0
+gradio_client>=0.6.0
+requests>=2.31.0
+python-multipart>=0.0.6
+python-dotenv>=1.0.0
+opencv-python>=4.11.0.86  # Only if needed (for future image preprocessing)

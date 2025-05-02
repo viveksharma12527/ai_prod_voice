@@ -1,0 +1,17 @@
+[project]
+name = "ocrproject"
+version = "0.1.0"
+description = "FastAPI app to extract product details from image using OCR and AI"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+  "fastapi",
+  "uvicorn",
+  "gradio-client>=1.10.0",
+  "requests",
+  "python-multipart"
+
+]
+[tool.uv]
+main = "app.main:app"
